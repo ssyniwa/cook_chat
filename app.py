@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # API設定
-genai.configure(api_key="AIzaSyDroxlJ2EaGjfRTNYUtFB6po0sCKSPUBgo")
+genai.configure(api_key="AIzaSyBj46W9CdHV9usGVYOmtXi1jBGzRnPEQi8")
 model = genai.GenerativeModel('gemini-3.1-flash-light')
 
 # ページ設定
